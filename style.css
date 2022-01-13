@@ -1,0 +1,120 @@
+body{
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    padding: 0px 750px ;
+}
+.body{
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+header{
+    width: 1200px;
+    text-align: center;
+}
+.blank{
+    overflow: hidden    ;
+    display: flex;
+    justify-content: center;
+    background-color: darkviolet;
+    width: 1020px;
+    height: 15px;
+    margin: -40px 0px -20px;
+    top: 0px;
+}
+.userName{
+    color: darkviolet;
+    font-weight: bold;
+}
+.nav-links{
+    overflow: hidden;
+    background-color:darkslategrey;
+}
+ul{
+    width: 980px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.login{
+    background-color: darkviolet;
+    color: white;
+    border-color: black;
+    box-shadow: black 4px 5px;
+    width: 90px;
+    height: 30px;
+    margin: 0px 50px;
+    font-family: cursive;
+    font-size: 15px;
+}
+.boton{
+    display: inline-block;
+    display: flex;
+    justify-content: right;
+    align-items: flex-start;
+    margin: -5px 30px 0px -30px;
+}
+.idUser{
+    margin: 0px 10px 0px -10px;
+}
+video{
+    width: 600px;
+    height: 350px;
+    margin: 0px 15px 0px -10px
+}
+.grid video:hover{
+    pointer-events:stroke;
+}
+.subscribe{
+    background-color: darkviolet;
+    color: white;
+    border-color: black;
+    box-shadow: black 4px 5px;
+    width: 120px;
+    height: 30px;
+    margin: 10px,
+}
+.userPhoto{
+    width: 50px;
+}
+h3{
+    margin: 20px 0px 0px 15px;
+}
+input{
+    width: 500px;
+    height: 30px;
+    border-color: black;
+    padding: 0px 20px;
+    font-size: 15px;
+}
+.nextVideo{
+    width: 300px;
+    margin: -20px 20px 10px;
+}
+hr{
+    margin: 10px;
+    width: 370px;
+    border-width: 2px;
+}
+.description{
+    margin-left: 0px -30px 0px -30px;
+}
+.contenido{
+    display: flex;
+    margin: 10px 10px ;
+}
+.videoIcon{
+    width: 130px;
+    margin: 20px 10px 0px 10px;
+    color: darkviolet;
+}
+p{
+    margin: -30px 0px 10px;
+}
+.detalles{
+    margin: 5px 0px 0px -10px;
+}
